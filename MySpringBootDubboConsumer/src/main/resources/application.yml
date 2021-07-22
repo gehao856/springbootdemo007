@@ -1,0 +1,11 @@
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 192.168.188.128:2181
+  protocol:
+    name: dubbo
+  application:
+    name: MySpringBootDubboConsumer
+    qos-enable: false
+server:
+  port: 8081
